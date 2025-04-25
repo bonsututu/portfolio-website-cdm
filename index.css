@@ -1,0 +1,18 @@
+/* Universal Styling */
+body{
+    background-color: lightblue;
+}
+
+.nav-bar li{
+    list-style: none;
+    text-align: center;
+    
+}
+
+.header{
+    text-align: center;
+}
+
+img{
+    align-items: center;
+}
