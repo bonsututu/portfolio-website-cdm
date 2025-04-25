@@ -3,16 +3,37 @@ body{
     background-color: lightblue;
 }
 
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    background-color: #072a36;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
 .nav-bar li{
     list-style: none;
     text-align: center;
-    
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 .header{
     text-align: center;
 }
 
-img{
-    align-items: center;
+.image{
+    width: 1020px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
